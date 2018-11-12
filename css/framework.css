@@ -1,3 +1,7 @@
+@import url(../css/bootstrap.min.css);
+@import url(../css/normalize.css);
+@import url(../css/aos.min.css);
+
 /* Change bootstrap's .container width */
 @media (min-width: 768px) {
   .container {
@@ -9334,13 +9338,16 @@
       color: #ff0000; }
 
 .pink {
-  color: #ea4c89; }
+  color: #e66767; }
   .pink.link {
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s; }
     .pink.link:hover, .pink.link:focus {
       color: #e41867; }
+
+.light_pink {
+  color: #ea8685; }
 
 .dark_blue {
   color: #2c3e50; }
@@ -9464,7 +9471,10 @@
   background: #ec4336; }
 
 .bg_pink {
-  background: #ea4c89; }
+  background: #ea8685; }
+
+.bg_pink_name {
+  background: rgba(234, 134, 133, 0.8); }
 
 .bg_dark_blue {
   background: #2c3e50; }
@@ -9798,7 +9808,7 @@
     .btn.white.border_green:hover, .btn.white.border_green:focus {
       border-color: #0cb658; }
     .btn.white.border_pink:hover, .btn.white.border_pink:focus {
-      border-color: #e41867; }
+      border-color: #e66767; }
     .btn.white.border_twitter_color:hover, .btn.white.border_twitter_color:focus {
       border-color: #0688d2; }
     .btn.white.border_facebook_color:hover, .btn.white.border_facebook_color:focus {
@@ -9821,7 +9831,7 @@
       background-color: #272727; }
   .btn.pink {
     color: #ffffff;
-    background-color: #ea4c89;
+    background-color: #e66767;
     text-align: center;
     font-family: Nunito Sans;
     font-weight: 400; }
@@ -10023,7 +10033,7 @@
   .btn.border_green {
     border-color: #18c967; }
   .btn.border_pink {
-    border-color: #ea4c89; }
+    border-color: #ea8685; }
   .btn.border_white {
     border-color: #ffffff; }
   .btn.border_transparent_white {
@@ -10262,7 +10272,7 @@
   .input.focus_black:focus {
     border-color: #000000; }
   .input.focus_pink:focus {
-    border-color: #ea4c89; }
+    border-color: #ea8685; }
   .input.focus_dark_blue:focus {
     border-color: #2c3e50; }
   .input.focus_white:focus {
